@@ -1,7 +1,7 @@
 from ._version import __author__, __author_email__, __version__
 from .formula import Formula
 from .model_matrix import ModelMatrix
-from .sugar import model_matrix
+from .sugar import model_matrix, get_model_matrix
 
 __all__ = [
     "__author__",
